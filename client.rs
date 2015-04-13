@@ -1,7 +1,3 @@
-#![feature(io)]
-#![feature(env)]
-#![feature(net)]
-
 use std::net::{TcpStream, Shutdown};
 use std::io::{Read, Write};
 use std::env;
