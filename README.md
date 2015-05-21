@@ -12,7 +12,7 @@ The server simply echoes all the received data back to the client.
 ```sh
 $ make
 ```
-* Run the server on some non-privileged port (unless you are root and know what you are doing). For example:
+* Run the server on some non-privileged port (>= 1024). For example:
 ```sh
 $ ./server 127.0.0.1 2048
 ```
