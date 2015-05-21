@@ -3,9 +3,9 @@ Simple rust echo server and its client program, communicating via TCP.
 The server simply echoes all the received data back to the client.
 
 ### How to compile
-* The sources were compiled using [Rust 1.0.0-beta]
+* The sources were compiled using [Rust 1.0.0]
 * You will also need `make`
-[Rust 1.0.0-beta]: https://github.com/rust-lang/rust/releases/tag/1.0.0-beta
+[Rust 1.0.0]: https://github.com/rust-lang/rust/releases/tag/1.0.0
 
 ### How to run
 * `make` the project:
