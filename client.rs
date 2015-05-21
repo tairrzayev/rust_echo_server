@@ -7,16 +7,16 @@ fn main() {
     let args: Vec<String> = env::args().map(|x| x.to_string())
                                        .collect();
 
-    let program = args[0].clone();
+    let program = &args[0];
 
     if args.len() != 4 {
-        print_usage(&program);
+        print_usage(program);
         return;
     }
 
-    let address = args[1].clone();
-    let port = args[2].clone();
-    let message = args[3].clone();
+    let address = &args[1];
+    let port = &args[2];
+    let message = &args[3];
 
     let connection_string = format!("{}:{}", address, port);
 
